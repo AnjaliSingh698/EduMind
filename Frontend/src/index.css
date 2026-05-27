@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+@import "tailwindcss";
+@plugin "daisyui";
+
+body{
+    font-family: 'poppins';
+}
