@@ -1,8 +1,9 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: import.meta.env.VITE_API_URL,
+  baseURL: "https://edumind-sfhe.onrender.com",
 });
+
 
 API.interceptors.request.use((req) => {
   const token = localStorage.getItem("token");
