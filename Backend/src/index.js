@@ -17,7 +17,8 @@ const app = express();
 app.use(cors({
   origin: [
     "http://localhost:5173",
-    "https://anjalisingh698.github.io"
+    "https://anjalisingh698.github.io",
+    "https://anjalisingh698.github.io/quiz"
   ],
   credentials: true
 }));
