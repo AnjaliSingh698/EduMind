@@ -25,7 +25,7 @@ const Contact = () => {
       setLoading(true);
 
       const res = await axios.post(
-        "http://localhost:5000/api/contact",
+        "https://edumind-sfhe.onrender.com/api/contact",
         formData
       );
 

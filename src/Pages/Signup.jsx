@@ -22,8 +22,7 @@ const Signup = () => {
       role: data.role,
     };
 
-    const res = await axios.post(
-      "http://localhost:5000/user/signup",
+    const res = await API.post("/user/signup",
       userInfo
     );
 

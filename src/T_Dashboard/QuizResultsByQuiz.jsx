@@ -29,7 +29,7 @@ const QuizResultsByQuiz = () => {
     fetchResults();
   }, [quizId]);
 
-  // 📊 CALCULATE STATS
+  //  CALCULATE STATS
   const totalStudents = results.length;
   const avgScore =
     results.length > 0
@@ -99,7 +99,7 @@ const QuizResultsByQuiz = () => {
                 ? Math.round((r.score / totalQ) * 100)
                 : 0;
 
-              // 🎨 COLOR BASED ON SCORE
+              // COLOR BASED ON SCORE
               let color = "bg-red-500";
               if (percent >= 75) color = "bg-green-500";
               else if (percent >= 50) color = "bg-yellow-500";

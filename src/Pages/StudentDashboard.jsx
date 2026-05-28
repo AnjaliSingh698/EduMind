@@ -31,7 +31,7 @@ const StudentDashboard = () => {
   fetchStats();
   }, [user]);
 
-  // ✅ 👉 ADD IT HERE (BEFORE return)
+  
   const progress = stats.totalQuizzes
     ? Math.min(
         Math.round((stats.attempted / stats.totalQuizzes) * 100),
