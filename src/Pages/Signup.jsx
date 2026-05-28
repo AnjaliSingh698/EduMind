@@ -15,6 +15,7 @@ const Signup = () => {
   } = useForm();
 
   const onSubmit = async (data) => {
+    console.log("SIGNUP CLICKED");
   try {
     const userInfo = {
       fullname: data.fullname.trim(),
